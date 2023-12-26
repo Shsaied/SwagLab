@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T13:49:51 EET" name="Default Suite" finished-at="2023-12-26T13:50:12 EET" duration-ms="21069">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T13:49:51 EET" name="Swag-Lab" finished-at="2023-12-26T13:50:12 EET" duration-ms="21069">
+      <class name="testcases.TC02_AddProductsToCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC02_AddProductsToCart@575e572f]" started-at="2023-12-26T13:49:51 EET" name="setup" finished-at="2023-12-26T13:50:00 EET" duration-ms="8723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkInvoiceTotalPrice_P()[pri:1, instance:testcases.TC02_AddProductsToCart@575e572f]" started-at="2023-12-26T13:50:00 EET" name="checkInvoiceTotalPrice_P" description="Add All products to Shopping Cart and check invoice total price" finished-at="2023-12-26T13:50:12 EET" duration-ms="11751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvoiceTotalPrice_P -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.TC02_AddProductsToCart@575e572f]" started-at="2023-12-26T13:50:12 EET" name="close" finished-at="2023-12-26T13:50:12 EET" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.TC02_AddProductsToCart -->
+    </test> <!-- Swag-Lab -->
+  </suite> <!-- Default Suite -->
+</testng-results>

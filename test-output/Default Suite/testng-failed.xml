@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Swag-Lab(failed)">
+    <classes>
+      <class name="testcases.TC02_AddProductsToCart">
+        <methods>
+          <include name="checkInvoiceTotalPriceAfterRemoveAnItem_P"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.TC02_AddProductsToCart -->
+    </classes>
+  </test> <!-- Swag-Lab(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
